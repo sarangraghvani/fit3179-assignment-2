@@ -1,0 +1,43 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "GDP per Capita Around the World",
+  "width": 700,
+  "height": 450,
+  "background": null,
+  "projection": {"type": "naturalEarth1"},
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/sarangraghvani/fit3179/main/ne_110m_admin_0_countries_lakes.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries_lakes"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "data/gdp_per_capita.csv"
+        },
+        "key": "Country Name",
+        "fields": ["gdp_capita"]
+      }
+    },
+    {"calculate": "datum.gdp_capita + 1", "as": "gdp_capita"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "gdp_capita",
+      "title": "$USD",
+      "type": "quantitative",
+      "scale": {
+        "type": "log",
+        "domain": [100, 10000, 150000],
+        "range": ["#f7f7f7", "#cccccc", "#969696", "#525252"]
+    }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country Name   "},
+      {"field": "gdp_capita", "type": "quantitative", "title": "GDP per Capita"}
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Industries by Growth",
+    "description": "A bar chart that sorts the y-values by the x-values.",
+    "data": {"url": "data/aus_industries.csv"},
+    "height": {"step": 17},
+    "width": 440,
+    "encoding": {
+      "y": {
+        "field": "Industry",
+        "type": "nominal",
+        "sort": "-x",
+        "title": null
+      },
+      "x": {
+        "aggregate": "mean",
+        "field": "Growth",
+        "title": "Growth"
+      },
+      "color": {"value": "rgb(77, 173, 47)"}
+    },
+    "layer": [{
+        "mark": "bar"
+      }, 
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 3
+        },
+        "encoding": {
+          "text": {"field": "Growth", "type": "quantitative"}
+        }
+      }]
+} 

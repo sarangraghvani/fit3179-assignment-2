@@ -1,0 +1,271 @@
+Country Name,Code,gdp_capita
+Aruba,ABW,30253
+Africa Eastern and Southern,AFE,1360
+Afghanistan,AFG,517
+Africa Western and Central,AFW,1710
+Angola,AGO,1776
+Albania,ALB,5246
+Andorra,AND,40897
+Arab World,ARB,5613
+United Arab Emirates,ARE,36285
+Argentina,ARG,8579
+Armenia,ARM,4266
+American Samoa,ASM,12845
+Antigua and Barbuda,ATG,13993
+Australia,AUS,51693
+Austria,AUT,48587
+Azerbaijan,AZE,4221
+Burundi,BDI,239
+Belgium,BEL,45159
+Benin,BEN,1291
+Burkina Faso,BFA,858
+Bangladesh,BGD,1962
+Bulgaria,BGR,10079
+Bahrain,BHR,20410
+"Bahamas, The",BHS,25194
+Bosnia and Herz.,BIH,6080
+Belarus,BLR,6424
+Belize,BLZ,4115
+Bermuda,BMU,107079
+Bolivia,BOL,3133
+Brazil,BRA,6797
+Barbados,BRB,15374
+Brunei Darussalam,BRN,27443
+Bhutan,BTN,3001
+Botswana,BWA,6405
+Central African Rep.,CAF,493
+Canada,CAN,43295
+Central Europe and the Baltics,CEB,16168
+Switzerland,CHE,87097
+Channel Islands,CHI,
+Chile,CHL,13232
+China,CHN,10435
+Côte d'Ivoire,CIV,2326
+Cameroon,CMR,1537
+Dem. Rep. Congo,COD,544
+Congo,COG,1846
+Colombia,COL,5335
+Comoros,COM,1421
+Cabo Verde,CPV,3064
+Costa Rica,CRI,12141
+Caribbean small states,CSS,8874
+Cuba,CUB,9478
+Curacao,CUW,16746
+Cayman Islands,CYM,85083
+Cyprus,CYP,27528
+Czechia,CZE,22931
+Germany,DEU,46208
+Djibouti,DJI,3425
+Dominica,DMA,7004
+Denmark,DNK,61063
+Dominican Rep.,DOM,7268
+Algeria,DZA,3307
+East Asia & Pacific (excluding high income),EAP,8255
+Early-demographic dividend,EAR,3202
+East Asia & Pacific,EAS,11478
+Europe & Central Asia (excluding high income),ECA,7669
+Europe & Central Asia,ECS,23955
+Ecuador,ECU,5600
+Egypt,EGY,3569
+Euro area,EMU,37968
+Eritrea,ERI,643
+Spain,ESP,27063
+Estonia,EST,23027
+Ethiopia,ETH,936
+European Union,EUU,34149
+Fragile and conflict affected situations,FCS,1622
+Finland,FIN,48745
+Fiji,FJI,5058
+France,FRA,39030
+Faroe Islands,FRO,
+"Micronesia, Fed. Sts.",FSM,3565
+Gabon,GAB,6882
+United Kingdom,GBR,41059
+Georgia,GEO,4267
+Ghana,GHA,2206
+Gibraltar,GIB,92843
+Guinea,GIN,1194
+Gambia,GMB,773
+Guinea-Bissau,GNB,728
+Equatorial Guinea,GNQ,7143
+Greece,GRC,17623
+Grenada,GRD,9262
+Greenland,GRL,54471
+Guatemala,GTM,4603
+Guam,GUM,34624
+Guyana,GUY,6956
+High income,HIC,44003
+"Hong Kong SAR, China",HKG,46324
+Honduras,HND,2389
+Heavily indebted poor countries (HIPC),HPC,969
+Croatia,HRV,14134
+Haiti,HTI,1272
+Hungary,HUN,15981
+IBRD only,IBD,6149
+IDA & IBRD total,IBT,4891
+IDA total,IDA,1311
+IDA blend,IDB,1675
+Indonesia,IDN,3870
+IDA only,IDX,1127
+Isle of Man,IMN,
+India,IND,1928
+Not classified,INX,
+Ireland,IRL,85268
+Iran,IRN,2422
+Iraq,IRQ,4146
+Iceland,ISL,59270
+Israel,ISR,44169
+Italy,ITA,31714
+Jamaica,JAM,4665
+Jordan,JOR,4283
+Japan,JPN,40193
+Kazakhstan,KAZ,9122
+Kenya,KEN,1879
+Kyrgyzstan,KGZ,1174
+Cambodia,KHM,1544
+Kiribati,KIR,1654
+St. Kitts and Nevis,KNA,18438
+South Korea,KOR,31631
+Kuwait,KWT,24812
+Latin America & Caribbean (excluding high income),LAC,6779
+Laos,LAO,2630
+Lebanon,LBN,4650
+Liberia,LBR,633
+Libya,LBY,3699
+St. Lucia,LCA,8805
+Latin America & Caribbean,LCN,7245
+Least developed countries: UN classification,LDC,1054
+Low income,LIC,691
+Liechtenstein,LIE,
+Sri Lanka,LKA,3681
+Lower middle income,LMC,2217
+Low & middle income,LMY,4755
+Lesotho,LSO,875
+Late-demographic dividend,LTE,9683
+Lithuania,LTU,20234
+Luxembourg,LUX,116015
+Latvia,LVA,17726
+"Macao SAR, China",MAC,39403
+St. Martin (French part),MAF,
+Morocco,MAR,3059
+Monaco,MCO,173688
+Moldova,MDA,4547
+Madagascar,MDG,471
+Maldives,MDV,6924
+Middle East & North Africa,MEA,6534
+Mexico,MEX,8329
+Marshall Islands,MHL,4130
+Middle income,MIC,5217
+North Macedonia,MKD,5917
+Mali,MLI,862
+Malta,MLT,27885
+Myanmar,MMR,1468
+Middle East & North Africa (excluding high income),MNA,3018
+Montenegro,MNE,7677
+Mongolia,MNG,4061
+Northern Mariana Islands,MNP,
+Mozambique,MOZ,449
+Mauritania,MRT,1702
+Mauritius,MUS,8628
+Malawi,MWI,637
+Malaysia,MYS,10412
+North America,NAC,61502
+Namibia,NAM,4179
+New Caledonia,NCL,
+Niger,NER,568
+Nigeria,NGA,2097
+Nicaragua,NIC,1905
+Netherlands,NLD,52397
+Norway,NOR,67330
+Nepal,NPL,1155
+Nauru,NRU,10580
+New Zealand,NZL,41441
+OECD members,OED,38219
+Oman,OMN,14485
+Other small states,OSS,11767
+Pakistan,PAK,1189
+Panama,PAN,12510
+Peru,PER,6127
+Philippines,PHL,3299
+Palau,PLW,14244
+Papua New Guinea,PNG,2757
+Poland,POL,15721
+Pre-demographic dividend,PRE,1332
+Puerto Rico,PRI,32291
+North Korea,PRK,1300
+Portugal,PRT,22176
+Paraguay,PRY,5001
+West Bank and Gaza,PSE,3240
+Pacific island small states,PSS,3769
+Post-demographic dividend,PST,44475
+French Polynesia,PYF,
+Qatar,QAT,50124
+Romania,ROU,12896
+Russia,RUS,10127
+Rwanda,RWA,798
+South Asia,SAS,1824
+Saudi Arabia,SAU,20110
+Sudan,SDN,486
+Senegal,SEN,1472
+Singapore,SGP,59798
+Solomon Islands,SLB,2251
+Sierra Leone,SLE,509
+El Salvador,SLV,3799
+San Marino,SMR,
+Somaliland,SOM,438
+Serbia,SRB,7721
+Sub-Saharan Africa (excluding high income),SSA,1500
+S. Sudan,SSD,397
+W. Sahara,SSF,1501
+Small states,SST,10771
+Sao Tome and Principe,STP,2158
+Suriname,SUR,4917
+Slovakia,SVK,19267
+Slovenia,SVN,25517
+Sweden,SWE,52274
+Eswatini,SWZ,3424
+Sint Maarten (Dutch part),SXM,
+Seychelles,SYC,10764
+Syria,SYR,2033
+Turks and Caicos Islands,TCA,23880
+Chad,TCD,659
+East Asia & Pacific (IDA & IBRD countries),TEA,8346
+Europe & Central Asia (IDA & IBRD countries),TEC,8387
+Togo,TGO,915
+Thailand,THA,7187
+Tajikistan,TJK,859
+Turkmenistan,TKM,7612
+Latin America & the Caribbean (IDA & IBRD countries),TLA,7036
+Timor-Leste,TLS,1443
+Middle East & North Africa (IDA & IBRD countries),TMN,3016
+Tonga,TON,4625
+South Asia (IDA & IBRD),TSA,1824
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1501
+Trinidad and Tobago,TTO,15426
+Tunisia,TUN,3522
+Turkey,TUR,8536
+Tuvalu,TUV,4143
+Tanzania,TZA,1076
+Uganda,UGA,822
+Ukraine,UKR,3725
+Upper middle income,UMC,9178
+Uruguay,URY,15438
+United States of America,USA,63593
+Uzbekistan,UZB,1751
+St. Vincent and the Grenadines,VCT,7278
+Venezuela,VEN,1541
+British Virgin Islands,VGB,
+Virgin Islands (U.S.),VIR,
+Vietnam,VNM,2786
+Vanuatu,VUT,2870
+World,WLD,10919
+Samoa,WSM,4068
+Kosovo,XKX,4347
+Yemen,YEM,691
+South Africa,ZAF,5656
+Zambia,ZMB,985
+Zimbabwe,ZWE,1215
+eSwatini,,1000
+Taiwan,,68730
+Somalia,,309
+Eq. Guinea,,500

@@ -1,0 +1,148 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 580,
+  "height": 350,
+  "title": "Corruption and Unemployment Around the World",
+  "data": {
+    "url": "data/joined_data.csv"
+  },
+  
+  "params": [
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 100000000,
+        "step": 1000000,
+        "name": "Minimum Population: ",
+        "color": "blue"
+      }
+    },
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels": [
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.GDP_per_capita > 0"},
+    {"filter": "datum.Corruption > 0"},
+    {"filter": "datum.Population > Population_Above"},
+    {
+      "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Unemployment",
+      "type": "quantitative",
+      "title": "Unemployment",
+      "axis": {"tickCount": 7},
+      "scale": {"type": "linear", "domain": [0, 35]}
+    },
+    "y": {
+      "field": "Corruption",
+      "type": "quantitative",
+      "axis": {"tickCount": 6},
+      "scale": {"type": "linear", "domain": [0, 100]}
+    }
+  },
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "GDP_per_capita",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000, 10000, 50000, 100000],
+            "range": [10, 50, 150, 300, 500, 600]
+          },
+          "legend": {
+            "format": ".1s"
+          },
+          "title": "GDP per Capita"
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "range": [
+              "#a65628",
+              "#984ea3",
+              "#ff7f00",
+              "#a6cee3",
+              "#377eb8",
+              "#e41a1c"
+            ]
+          }
+        },
+        "opacity": {"value": 0.6},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Unemployment", "type": "quantitative", "format": ","},
+          {"field": "GDP_per_capita", "type": "quantitative", "format": ",", "title": "GDP per Capita"},
+          {"field": "Corruption", "type": "quantitative", "format": ","}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country'] == 'Australia' || datum['Country'] == 'China' || datum['Country'] == 'India' || datum['Country'] == 'Russia' || datum['Country'] == 'United Kingdom' || datum['Country'] == 'France'",
+            "value": 1
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Unemployment", "type": "quantitative", "format": ","},
+          {"field": "GDP_per_capita", "type": "quantitative", "format": ","},
+          {"field": "Corruption", "type": "quantitative", "format": ","}
+        ]
+      }
+    }
+  ]
+}

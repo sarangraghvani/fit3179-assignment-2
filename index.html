@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>FIT3179 Assignment II</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" 
+    integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="text/javascript">
+      var data1 = "code/choropleth.json";
+      var data2 = "code/linechart.vg.json";
+      var data3 = "code/pie.vg.json";
+      var data4 = "code/sankey.vg.json";
+      var data5 = "code/bubble.vg.json";
+      var data6 = "code/bar.vg.json";
+
+      vegaEmbed('#choropleth', data1, {"actions": false}).then(function(result) {
+       }).catch(console.error); /* choropleth */
+
+       vegaEmbed('#line', data2, {"actions": false}).then(function(result) {
+       }).catch(console.error); /* line */
+
+       vegaEmbed('#pie', data3, {"actions": false}).then(function(result) {
+       }).catch(console.error); /* pie */
+
+       vegaEmbed('#sankey', data4, {"actions": false}).then(function(result) {
+       }).catch(console.error); /* sankey */
+
+       vegaEmbed('#bubble', data5, {"actions": false}).then(function(result) {
+       }).catch(console.error); /* bubble */
+
+       vegaEmbed('#bar', data6, {"actions": false}).then(function(result) {
+       }).catch(console.error); /* bar */
+
+    </script>
+  </head>
+
+  
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <h1 id="pageTitle"><span>Australia's</span> Economy Compared To The World</h1>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+        </div>
+      </header>
+      
+
+      <main class="mdl-layout__content">
+        <div class="mdl-layout__tab-panel is-active" id="overview">   
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h3>What Is The Size Of Different Economies?</h3>
+                <!-- pure grid group -->
+                <div class="pure-g">
+                  <div class="pure-u-1-3">
+                     <br>Around the world, some countries have large economies and others are smaller. So how can we measure and
+                     compare them to <span>Australia</span>? <br><br>Well the <b>Gross domestic product (GDP)</b> is a universally accepted 
+                     metric. It is simply a monetary measure of the market value of of all fiscal goods and services traded in each 
+                     financial year. So it is calculated as the sum of consumption by households, investment by businesses, 
+                     government spending on goods and services and net exports.<br><br> But if we simply use this <b>GDP</b> to compare 
+                     countries around the world, then countries with high populations such as China and the US would be shown 
+                     disproportionately as compared to smaller countries like <span>Australia</span>. So a non-trivial solution 
+                     is to <b>normalise</b> the GDP with the population. This is called the <b>GDP per Capita</b>.<br><br> From the map we can 
+                     see that <span>Australia's </span> GDP per Capita is relatively high as is the case with many other developed 
+                     economies such as the US, Canada and New Zealand. This means that generally <span>Australian's </span> currently 
+                     have good <b>purchasing</b> power and are relatively wealthy today. Has this always been the case throughout history?
+                  </div>
+                  <div class="pure-u-2-3" id="choropleth"id2></div>
+                </div>
+                <!-- end grid group-->
+              </div>
+                <!-- pure grid group -->
+                <div class="pure-g"> 
+                  <div class="pure-u-1-3">
+                      <div id="line" style="padding: 30px"></div>
+                  </div>
+                  <div class="pure-u-2-3">
+                      <div id="id0" style="padding-right: 20px; padding-left: 200px; padding-top:50px">
+                        Looking through <b>GDP per capita</b> over time from 1960 back when <b>Sir Robert Menzies</b> the Prime Minister, to 2021 
+                        today, we can see that generally over time, comparable countries have <b>increased</b> the size of their respective economies as 
+                        has <span>Australia </span>. <br><br>Back then <span>Australia's </span> <b>GDP per capita</b> was <b>$1,811</b> and now it is
+                        upto almost a whopping <b>$60,000!</b> <br><br> However <b>GDP growth</b> is not steady but is rather cyclical in nature.
+                        Economies boom then recessions follow and this cycle repeats. From the year 1995 to 2000 there was the <b>Dot 
+                        Com Bubble</b> and in 2008 there was the <b>Global Financial Crisis</b> which saw all major economies contract. <br>
+                        <br> While other countries have gone through many recessions, <span>Australia </span> didn't have a recession 
+                        for almost <b>30 years</b> until now. This proves that <span>Australia's </span> economy is resilient even in bad 
+                        times and Infact, there was a time when it had the <b>highest GDP per capita</b> among these nations. <br><br>So why is 
+                        <span>Australia's </span>economy so resiliant? It must be something to do with the <b>community</b>.
+                      </div>
+                  </div>
+                </div>
+                <!-- end grid group-->                
+            </div>   
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h3>How Are The Societal Factors?</h3>
+                <!-- pure grid group -->
+                <div class="pure-g">
+                  <div class="pure-u-1-3">
+                     <br>A country and its <b>society</b> is generally more prosperous when <b>corruption is low</b> and <b>unemployment is low</b>. This underpins an efficient 
+                     and strong economy. <br><br>We can see that countries that have <b>low corruption levels</b> and an <b>low unemployments</b> have greater <b>GDP per capitas</b>.
+                     <br><br><span>Australia </span> has a <b>corruption index of 27</b> and an <b>unemployment of 5%</b> and thus has a <b>high GDP per capita</b>. This is also 
+                     true for places like the US and Western Europe. <br><br>
+                     Overall, the pattern is obvious and therefore we can see that to improve a countries economic postion, their respective governments 
+                     must tackle <b>corruption and maximise the working population</b>.
+                  </div>
+                  <div class="pure-u-2-3" id="bubble"></div>
+                </div>
+                <!-- end grid group-->
+              </div>             
+            </div>   
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h3>Internal Economy</h3>
+              </div>
+              <!-- pure grid group -->
+              <div class="pure-g">
+                <div class="pure-u-1-2" id="sankey"> </div>
+                <div class="pure-u-1-2" id="bar"> </div>
+              </div>
+              <!-- end grid group-->
+              <!-- pure grid group -->
+              <div class="pure-g" id="spacing">
+                <div class="pure-u-1-3"> 
+                  Looking within <span>Australia's </span> economy, so how can we see which state or territory is overperforming and which is dragging the 
+                  economy down? <br><br>We can observe the proportion of <b>gross state products</b> contributing to the overall countries <b>GDP</b>, and compare that 
+                  to the relative population. 
+                </div>
+                <div class="pure-u-1-3"> 
+                  Comparing the states and territories we can see that Western Australia (WA) only has <b>10%</b> of the countries population yet contributes 
+                  to upwards of <b>20% of GDP</b>. <br><br>WA is outperforming other states due to its strong <b>mining industry</b>, which has strong growth
+                  of <b>4.1%</b> year on year. Looking at other industries, the <b>IT, science and healthcare</b> sector have the most
+                </div>
+                <div class="pure-u-1-3"> 
+                  growth and thus other states such as Vic and NSW can look to those industries in an attempt to increase their <b>economic output</b>. <br><br>
+                  Overall, <span>Australia's </span>economy is very strong and their population do reap the benefits, infact throughout the countries 
+                  economy has been experiencing <b>high growth</b> and we can expect that to continue into the forseeable future!
+                </div>
+              </div>
+              <!-- end grid group-->
+            </div>   
+          </section>
+          <section class="section--footer mdl-color--white mdl-grid">
+          </section>
+        </div>
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--middle-section">
+          <div class="mdl-mega-footer--bottom-section">
+            <div class="mdl-logo">
+              By: Sarang Raghvani <br></br>
+              FIT3179 Assignment II
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <a href="https://github.com/sarangraghvani/fit3179-assignment-II" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
+
+<!-- 
+    Things to do:
+        - add annotations
+        - read through faq's in unit moodle
+        - https://vega.github.io/vega/examples/zoomable-scatter-plot/
+        - 
+
+    References:
+        - https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana
+        - https://www.kaggle.com/datasets/pantanjali/unemployment-dataset
+        - https://www.kaggle.com/datasets/tr1gg3rtrash/global-corruption-index
+        - https://www.worldometers.info/gdp/what-is-gdp/
+        
+        - https://www.austrade.gov.au/benchmark-report/resilient-economy
+        - 
+-->

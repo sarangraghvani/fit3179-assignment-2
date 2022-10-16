@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": "GSP by State",
+        "description": "A simple radial chart",
+        "data": {
+            "url": "data/aus_states.csv"
+        },
+        "layer": [{
+          "mark": {"type": "arc", "innerRadius": 30, "stroke": "#fff"}
+        },{
+          "mark": {"type": "text", "radiusOffset": 50},
+          "encoding": {
+            "text": {"field": "State"}
+          }
+        }],
+        "encoding": {
+          "theta": {"field": "SFD", "type": "quantitative", "stack": true},
+          "radius": {"field": "SFD", "scale": {"type": "sqrt", "zero": true, "rangeMin": 50}},
+          "color": {"field": "SFD", "type": "nominal", "legend": null}
+        }
+
+}

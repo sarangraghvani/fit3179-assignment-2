@@ -1,0 +1,147 @@
+Country,Continent,Population,Corruption,Unemployment,GDP_per_capita
+Afghanistan,Asia,38041754,84,13,517
+Albania,Europe,2854191,70,12,5246
+Algeria,Africa,43053054,67,13,3307
+Angola,Africa,31825295,71,9,1776
+Argentina,South America,44938712,62,11,8579
+Armenia,Europe,2957731,51,21,4266
+Australia,Oceania,25766605,27,5,51693
+Austria,Europe,8877067,26,6,48587
+Azerbaijan,Europe,10023318,70,7,4221
+Bahrain,Asia,1501635,58,2,20410
+Bangladesh,Asia,167310838,74,5,1962
+Barbados,North America,287025,35,10,15374
+Belarus,Europe,9466856,59,5,6424
+Belgium,Europe,11484055,27,6,45159
+Benin,Africa,11801151,58,2,1291
+Bhutan,Asia,727145,32,4,3001
+Bolivia,South America,11513100,70,9,3133
+Botswana,Africa,2346179,45,25,6405
+Brazil,South America,212559417,62,14,6797
+Bulgaria,Europe,6975761,58,5,10079
+Burundi,Africa,11530580,81,2,239
+Cambodia,Asia,16486542,77,1,1544
+Cameroon,Africa,25876380,73,4,1537
+Canada,North America,36991981,26,8,43295
+Chad,Africa,15946876,80,2,659
+Chile,South America,18952038,33,9,13232
+China,Asia,1442965000,55,5,10435
+Colombia,South America,50339443,61,14,5335
+Comoros,Africa,850886,80,9,1421
+Costa Rica,North America,5047561,42,18,12141
+Croatia,Europe,4067500,53,9,14134
+Cuba,North America,11333483,54,3,9478
+Cyprus,Europe,1198575,47,6,27528
+Denmark,Europe,5818553,12,5,61063
+Djibouti,Africa,973560,70,28,3426
+Ecuador,South America,17373662,64,6,5600
+El Salvador,North America,6453553,66,6,3799
+Equatorial Guinea,Africa,1355986,83,9,7143
+Eritrea,Africa,6333135,78,8,643
+Estonia,Europe,1331824,26,6,23027
+Eswatini,Africa,1093238,68,26,3424
+Ethiopia,Africa,112078730,61,4,936
+Finland,Europe,5520314,12,8,48745
+France,Europe,67059887,29,8,39030
+Gabon,Africa,2172579,69,22,6882
+Georgia,Europe,3720382,45,11,4267
+Germany,Europe,83132799,20,4,46208
+Ghana,Africa,30792608,57,5,2206
+Greece,Europe,10716322,51,15,17623
+Guatemala,North America,16604026,75,4,4603
+Guinea,Africa,12771246,75,6,1194
+Guinea-Bissau,Africa,1920922,79,7,728
+Guyana,South America,782766,61,16,6956
+Haiti,North America,11263077,80,16,1272
+Honduras,North America,9746117,77,9,2389
+Hungary,Europe,9769949,57,4,15981
+Iceland,Europe,361313,26,5,59270
+India,Asia,1326093000,60,6,1928
+Indonesia,Asia,270203917,62,4,3870
+Iraq,Asia,39309783,77,14,4146
+Ireland,Europe,5007069,26,7,85268
+Israel,Asia,9053300,41,5,44169
+Italy,Europe,60297396,44,10,31714
+Jamaica,North America,2948279,56,9,4665
+Japan,Asia,126226568,27,3,40193
+Jordan,Asia,10101694,51,19,4283
+Kazakhstan,Asia,18513930,63,5,9122
+Kenya,Africa,52573973,70,6,1879
+Kuwait,Asia,4207083,57,4,24812
+Latvia,Europe,1912789,41,8,17726
+Lebanon,Asia,6855713,76,14,4650
+Lesotho,Africa,2125268,62,25,875
+Liberia,Africa,4937374,71,4,633
+Libya,Africa,6777452,83,20,3699
+Lithuania,Europe,2786844,39,8,20234
+Luxembourg,Europe,645397,19,5,116000
+Madagascar,Africa,26969307,74,3,471
+Malawi,Africa,18628747,65,7,637
+Malaysia,Asia,32447385,52,5,10412
+Maldives,Asia,530953,60,6,6924
+Mali,Africa,19658031,71,8,862
+Malta,Europe,502653,46,4,27885
+Mauritania,Africa,4525696,72,11,1702
+Mauritius,Africa,1265711,46,7,8628
+Mexico,North America,126014024,69,4,8329
+Moldova,Europe,2657637,64,4,4547
+Mongolia,Asia,3225167,65,7,4061
+Montenegro,Europe,622137,54,18,7677
+Morocco,Africa,36910560,61,11,3059
+Mozambique,Africa,30366036,74,4,449
+Myanmar,Asia,54045420,72,2,1468
+Namibia,Africa,2494530,51,22,4179
+Nepal,Asia,28608710,67,5,1155
+Netherlands,Europe,17332850,18,4,52397
+New Zealand,Oceania,4841000,12,4,41441
+Nicaragua,North America,6545502,80,6,1905
+Niger,Africa,23310715,69,1,568
+Nigeria,Africa,200963599,76,10,2097
+Republic of North Macedonia,Europe,1836713,61,16,5917
+Norway,Europe,5347896,15,5,67330
+Oman,Asia,5266535,48,3,14485
+Pakistan,Asia,216565318,72,4,1189
+Panama,North America,4246439,64,12,12510
+Papua New Guinea,Oceania,8776109,69,3,2757
+Paraguay,South America,7044636,70,7,5001
+Peru,South America,32510453,64,5,6127
+Philippines,Asia,108116615,67,2,3299
+Poland,Europe,37970874,44,3,15721
+Portugal,Europe,10269417,38,7,22176
+Qatar,Asia,2832067,37,1,50124
+Romania,Europe,19356544,55,5,12896
+Russia,Europe,146076214,71,5,10126
+Rwanda,Africa,12626950,47,2,798
+Saudi Arabia,Asia,34268528,47,7,20110
+Senegal,Africa,16296364,57,4,1472
+Serbia,Europe,6944975,62,12,7721
+Sierra Leone,Africa,7813215,66,5,509
+Singapore,Asia,5703569,15,4,59798
+Slovenia,Europe,2087946,43,4,25517
+Solomon Islands,Oceania,669823,57,1,2251
+Somalia,Africa,15442905,87,20,309
+South Africa,Africa,58558270,56,34,5656
+Spain,Europe,47076781,39,15,27063
+Sri Lanka,Asia,21803000,63,5,3681
+Sudan,Africa,42813238,80,20,486
+Suriname,South America,581372,61,10,4917
+Sweden,Europe,10285453,15,9,52274
+Switzerland,Europe,8574832,16,5,87097
+Tajikistan,Asia,9321018,75,8,859
+Tanzania,Africa,58005463,61,3,1077
+Thailand,Asia,69625582,65,1,7187
+Togo,Africa,8082366,70,4,915
+Trinidad and Tobago,North America,1394973,59,5,15426
+Tunisia,Africa,11694719,56,17,3522
+Turkmenistan,Asia,5942089,81,5,7612
+Uganda,Africa,44269594,73,3,822
+Ukraine,Europe,44385155,68,9,3725
+United Arab Emirates,Asia,9770529,31,3,36285
+United Kingdom,Europe,66834405,22,5,41059
+United States,North America,332403650,33,5,63593
+Uruguay,South America,3461734,27,10,15438
+Uzbekistan,Asia,33580650,72,7,1751
+Vanuatu,Oceania,299882,55,2,2870
+Vietnam,Asia,96462106,61,2,2786
+Zambia,Africa,17861030,67,13,985
+Zimbabwe,Africa,14645468,77,5,1215
