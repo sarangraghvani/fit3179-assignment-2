@@ -1,14 +1,12 @@
 {
-"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "GDP per Capita Around the World",
   "width": 700,
   "height": 450,
-  "background": null,
   "projection": {"type": "naturalEarth1"},
-
   "data": {
-    "url": "https://raw.githubusercontent.com/sarangraghvani/fit3179-assignment-2/main/ne_110m_admin_0_countries_lakes.json",
-    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries_lakes"}
+    "url": "https://raw.githubusercontent.com/sarangraghvani/fit3179-assignment-2/main/data/ne_110m_admin_0_countries.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
     {
